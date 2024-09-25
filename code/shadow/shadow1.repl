@@ -1,0 +1,7 @@
+>>> import random
+>>> random.get_random()
+2
+>>> from random import randint
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: cannot import name 'randint' from 'random' (/Users/ctrudeau/code/random.py)

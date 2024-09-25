@@ -1,0 +1,9 @@
+>>> # From pretty much anywhere
+>>> from package import gift
+This is package.gift.py
+>>> from package import box
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/Users/ctrudeau/.py_vir_envs/RPP/lib/python3.12/site-packages/package/box.py", line 2, in <module>
+    from insides import CONTENTS
+ModuleNotFoundError: No module named 'insides'

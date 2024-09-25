@@ -1,0 +1,7 @@
+$ python getbox.py
+Traceback (most recent call last):
+  File "/Users/ctrudeau/code/package/getbox.py", line 8, in <module>
+    from package.box import CONTENTS
+  File "/Users/ctrudeau/code/package/src/package/box.py", line 2, in <module>
+    from insides import CONTENTS
+ModuleNotFoundError: No module named 'insides'

@@ -1,0 +1,10 @@
+>>> # Using .__init__ to auto-import
+>>> import europe
+Greek: Γειά σας Κόσμε
+Inside europe.__init__.py
+>>> europe.greece
+<module 'europe.greece' from '/Users/ctrudeau/code/world/europe/greece.py'>
+>>> greece
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'greece' is not defined

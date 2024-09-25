@@ -1,0 +1,26 @@
+>>> # Mixing auto-imports
+>>> from americas import north
+Good day, eh?
+Inside americas.north.__init__.py
+>>> north
+<module 'americas.north' from '/Users/ctrudeau/code/world/americas/north/__init__.py'>
+>>> north.canada
+<module 'americas.north.canada' from '/Users/ctrudeau/code/world/americas/north/canada.py'>
+>>> north.usa
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'americas.north' has no attribute 'usa'
+>>> import north.usa
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'north'
+>>> import americas.north.usa
+Howdy, y'all
+>>> usa
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'usa' is not defined
+>>> north.usa
+<module 'americas.north.usa' from '/Users/ctrudeau/code/world/americas/north/usa.py'>
+>>> americas.north.usa
+<module 'americas.north.usa' from '/Users/ctrudeau/code/world/americas/north/usa.py'>

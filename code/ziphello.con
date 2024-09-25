@@ -1,0 +1,4 @@
+$ zip hello.pyz __main__.py
+  adding: __main__.py (stored 0%)
+$ python hello.pyz
+Hello from inside /Users/ctrudeau/code/zippy/hello.pyz/__main__.py

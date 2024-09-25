@@ -1,0 +1,12 @@
+>>> # Forgot someone
+>>> dogs.famous
+['Snoopy', 'Old Yeller']
+>>> import dogs
+>>> dogs.famous
+['Snoopy', 'Old Yeller']
+>>> # Reloading
+>>> import importlib
+>>> importlib.reload(dogs)
+<module 'dogs' from '/Users/ctrudeau/code/dogs.py'>
+>>> dogs.famous
+['Snoopy', 'Old Yeller', 'Lassie']

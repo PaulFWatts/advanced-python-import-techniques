@@ -1,0 +1,6 @@
+>>> import left
+Hello from left.py
+Hello from right.py
+Goodbye from right.py
+Total is: 30
+Goodbye from left.py

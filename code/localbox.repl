@@ -1,0 +1,4 @@
+>>> # Inside src/package/
+>>> import box
+This is package.insides.py
+This is package.box.py, contents: packing peanuts

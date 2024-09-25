@@ -1,0 +1,13 @@
+>>> import time
+>>> time.when()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'time' has no attribute 'when'
+>>> random
+<module 'random' from '/Users/ctrudeau/code/shadow/random.py'>
+>>> time
+<module 'time' (built-in)>
+>>> #### Fresh REPL Session!!!
+>>> import random
+>>> random
+<module 'random' from '/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/random.py'>

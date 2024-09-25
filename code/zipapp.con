@@ -1,0 +1,3 @@
+$ python -m zipapp goodbye -m talk:main
+$ python goodbye.pyz
+Good bye from /Users/ctrudeau/code/zippy/goodbye.pyz/talk.py

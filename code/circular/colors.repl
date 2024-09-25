@@ -1,0 +1,5 @@
+>>> import black
+Hello from black.py
+Hello from white.py
+Goodbye from white.py
+Goodbye from black.py

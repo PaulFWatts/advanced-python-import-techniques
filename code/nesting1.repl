@@ -1,0 +1,15 @@
+>>> import africa
+>>> africa
+<module 'africa' from '/Users/ctrudeau/code/world/africa/__init__.py'>
+>>> africa.zimbabwe
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'africa' has no attribute 'zimbabwe'
+>>> import africa.zimbabwe
+Ndebele: Sabona mhlaba
+>>> zimbabwe
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'zimbabwe' is not defined
+>>> africa.zimbabwe
+<module 'africa.zimbabwe' from '/Users/ctrudeau/code/world/africa/zimbabwe.py'>

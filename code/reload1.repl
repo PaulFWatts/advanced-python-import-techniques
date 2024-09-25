@@ -1,0 +1,3 @@
+>>> import dogs
+>>> dogs.famous
+['Snoopy', 'Old Yeller']

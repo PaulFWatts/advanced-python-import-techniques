@@ -1,0 +1,15 @@
+$ python -m pip install -e ../package
+Processing /Users/ctrudeau/code/package
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Building wheels for collected packages: package
+  Building wheel for package (pyproject.toml) ... done
+  Created wheel for package: filename=package-0.1-py3-none-any.whl size=1728 sha256=2c93faeec01b67b5fc3276a395ff9b1eede03a83a0c8b5c8718f83298df18a6e
+  Stored in directory: /private/var/folders/x0/7sm619s54ds8f4l5k1qtlxt40000gn/T/pip-ephem-wheel-cache-pa8t1828/wheels/33/5f/eb/d3a49b6f06eb672177be42df15e163464116610f0802766eb9
+Successfully built package
+Installing collected packages: package
+Successfully installed package-0.1
+
+$ pip freeze
+package @ file:///Users/ctrudeau/code/package
